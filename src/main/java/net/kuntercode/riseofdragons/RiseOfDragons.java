@@ -1,5 +1,6 @@
 package net.kuntercode.riseofdragons;
 
+import net.kuntercode.riseofdragons.block.ModBlocks;
 import net.kuntercode.riseofdragons.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -39,6 +40,7 @@ public class RiseOfDragons {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -59,6 +61,9 @@ public class RiseOfDragons {
             event.accept(ModItems.VENGESTONE);
         }
 
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.VENGESTONE_ORE);
+        }
     }
 
 
