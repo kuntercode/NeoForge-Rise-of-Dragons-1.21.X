@@ -5,5 +5,8 @@
 
   "block.riseofdragons.vengestone_ore": "Vengestone Ore",
   "block.riseofdragons.deepslate_vengestone_ore": "Deepslate Vengestone Ore",
-  "block.riseofdragons.vengestone_block": "Vengestone Block"
+  "block.riseofdragons.vengestone_block": "Vengestone Block",
+
+  "creativetab.riseofdragons.weapons_items": "Weapons",
+  "creativetab.riseofdragons.vengestone_items": "Vengestone"
 }
