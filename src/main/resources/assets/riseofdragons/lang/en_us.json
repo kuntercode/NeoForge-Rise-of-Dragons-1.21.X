@@ -1,4 +1,9 @@
 {
-  "item.riseofdragons.vengestone": "Vengestone",
-  "block.riseofdragons.vengestone_ore": "Vengestone Ore"
+  "item.riseofdragons.raw_vengestone": "Raw Vengestone",
+  "item.riseofdragons.vengestone_ingot": "Vengestone Ingot",
+  "item.riseofdragons.vengestone_nugget": "Vengestone Nugget",
+
+  "block.riseofdragons.vengestone_ore": "Vengestone Ore",
+  "block.riseofdragons.deepslate_vengestone_ore": "Deepslate Vengestone Ore",
+  "block.riseofdragons.vengestone_block": "Vengestone Block"
 }

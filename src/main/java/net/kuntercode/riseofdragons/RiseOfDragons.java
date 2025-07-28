@@ -58,11 +58,15 @@ public class RiseOfDragons {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.VENGESTONE);
+            event.accept(ModItems.VENGESTONE_INGOT);
+            event.accept(ModItems.VENGESTONE_NUGGET);
+            event.accept(ModItems.RAW_VENGESTONE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.VENGESTONE_BLOCK);
             event.accept(ModBlocks.VENGESTONE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_VENGESTONE_ORE);
         }
     }
 

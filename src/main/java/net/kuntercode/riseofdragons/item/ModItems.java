@@ -10,7 +10,13 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(RiseOfDragons.MOD_ID);
 
 
-    public static final DeferredItem<Item> VENGESTONE = ITEMS.register("vengestone",
+    public static final DeferredItem<Item> VENGESTONE_INGOT = ITEMS.register("vengestone_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> VENGESTONE_NUGGET = ITEMS.register("vengestone_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> RAW_VENGESTONE = ITEMS.register("raw_vengestone",
             () -> new Item(new Item.Properties()));
 
 
