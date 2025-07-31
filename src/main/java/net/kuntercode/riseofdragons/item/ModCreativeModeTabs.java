@@ -40,6 +40,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.riseofdragons.weapons_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.VENGESTONE_INGOT);
+                        output.accept(ModItems.DRAGON_CHISEL);
 
                     })
 
