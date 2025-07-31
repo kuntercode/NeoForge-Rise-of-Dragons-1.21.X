@@ -32,7 +32,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> DEEPSLATE_VENGESTONE_ORE = registerBlock("deepslate_vengestone_ore",
             () -> new DropExperienceBlock(UniformInt.of(10, 13),
-                    BlockBehaviour.Properties.of().strength(8f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    BlockBehaviour.Properties.of().strength(8f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
