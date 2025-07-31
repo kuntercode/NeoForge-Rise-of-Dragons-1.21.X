@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "vengestone_ingot",
+  "key": {
+    "#": {
+      "item": "riseofdragons:vengestone_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "riseofdragons:vengestone_ingot"
+  }
+}

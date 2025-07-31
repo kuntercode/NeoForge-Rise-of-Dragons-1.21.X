@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.9,
+  "group": "vengestone_ingot",
+  "ingredient": {
+    "item": "riseofdragons:raw_vengestone"
+  },
+  "result": {
+    "id": "riseofdragons:vengestone_ingot"
+  }
+}

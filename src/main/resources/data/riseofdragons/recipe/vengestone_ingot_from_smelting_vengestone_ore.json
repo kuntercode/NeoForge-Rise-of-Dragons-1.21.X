@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.9,
+  "group": "vengestone_ingot",
+  "ingredient": {
+    "item": "riseofdragons:vengestone_ore"
+  },
+  "result": {
+    "id": "riseofdragons:vengestone_ingot"
+  }
+}
